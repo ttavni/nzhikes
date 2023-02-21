@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 import { places } from "./places";
 import styled from "styled-components";
 import { useNavigate } from "react-router-dom";

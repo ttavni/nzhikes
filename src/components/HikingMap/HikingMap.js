@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import mapboxgl from "mapbox-gl";
+import mapboxgl from "!mapbox-gl";
 import "./HikingMap.css";
 import scrollama from "scrollama";
 import { geojsonPoint, createLine, changeCenter } from "../../utils/drive";
