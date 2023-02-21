@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+/* eslint import/no-webpack-loader-syntax: off */
 import mapboxgl from "!mapbox-gl";
 import { places } from "./places";
 import styled from "styled-components";

@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+/* eslint import/no-webpack-loader-syntax: off */
 import mapboxgl from "!mapbox-gl";
 import "./HikingMap.css";
 import scrollama from "scrollama";
