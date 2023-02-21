@@ -18,7 +18,6 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "install": "npm i --legacy-peer-deps",
     "build": "react-scripts build"
   },
   "browserslist": {
