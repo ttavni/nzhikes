@@ -20,6 +20,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
