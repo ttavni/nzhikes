@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana";
+}
+a,
+a:hover,
+a:visited {
+  color: #4495cb;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-popup-content{
+  font-size: 1.5vh;
+  color: black;
+}

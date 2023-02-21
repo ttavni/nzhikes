@@ -1,0 +1,35 @@
+{
+  "name": "react-tooltip",
+  "version": "0.1.0",
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.9",
+    "@mui/material": "^5.11.10",
+    "@turf/turf": "^6.5.0",
+    "dotenv": "^16.0.3",
+    "mapbox-gl": "^2.12.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^3.4.3",
+    "scrollama": "^3.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
