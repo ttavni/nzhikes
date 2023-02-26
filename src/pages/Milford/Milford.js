@@ -7,6 +7,5 @@ import { trackCreator } from "../../utils/trackCreator";
 
 export default function Milford() {
   const track = trackCreator("Milford Track", coordinates, pointsOfInterest);
-  console.log(track);
   return <Map routeData={track} config={config} />;
 }
