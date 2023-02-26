@@ -23,3 +23,22 @@ export const transformRequest = (url) => {
     url: url + suffix,
   };
 };
+
+export const trackCreator = (title, coordinates, poi) => {
+  return {
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        properties: {
+          name: title,
+        },
+        geometry: {
+          type: "LineString",
+          coordinates: coordinates,
+        },
+      },
+      ...poi,
+    ],
+  };
+};

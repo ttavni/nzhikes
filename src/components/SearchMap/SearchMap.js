@@ -1,9 +1,9 @@
+import mapboxgl from "!mapbox-gl"; /* eslint import/no-webpack-loader-syntax: off */
 import React, { useRef, useEffect } from "react";
-/* eslint import/no-webpack-loader-syntax: off */
-import mapboxgl from "!mapbox-gl";
-import { places } from "./places";
-import styled from "styled-components";
 import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
+
+import { hikes } from "./hikes";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
@@ -169,7 +169,7 @@ const SearchMap = () => {
     map.on("load", () => {
       map.addSource("walks", {
         type: "geojson",
-        data: places,
+        data: hikes,
       });
       map.addLayer({
         id: "walk",

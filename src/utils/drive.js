@@ -84,7 +84,6 @@ export function changeCenter(index, map, pivots) {
     index
   );
   const center = geojsonPoint.features[0].geometry.coordinates[index];
-  console.log(index);
   const [centerX, centerY] = [center[0], center[1]];
   const movingLine = createMovingLine(currentJson);
 

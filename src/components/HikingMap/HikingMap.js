@@ -1,11 +1,11 @@
+import mapboxgl from "!mapbox-gl"; /* eslint import/no-webpack-loader-syntax: off */
 import React, { useRef, useEffect } from "react";
-/* eslint import/no-webpack-loader-syntax: off */
-import mapboxgl from "!mapbox-gl";
-import "./HikingMap.css";
 import scrollama from "scrollama";
+
 import { geojsonPoint, createLine, changeCenter } from "../../utils/drive";
 import { layerTypes, alignments, transformRequest } from "../../utils/utils";
 import { Footer } from "../Footer/Footer";
+import "./HikingMap.css";
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
@@ -158,7 +158,7 @@ const HikingMap = ({ routeData, config }) => {
         source: "places",
         paint: {
           "circle-color": "#ffffff",
-          "circle-radius": 4,
+          "circle-radius": 1.4,
           "circle-stroke-width": 2,
           "circle-stroke-color": "#888888",
         },
@@ -209,7 +209,7 @@ const HikingMap = ({ routeData, config }) => {
         type: "circle",
         source: "pointSource",
         paint: {
-          "circle-radius": 5,
+          "circle-radius": 2.5,
           "circle-opacity": 1,
           "circle-color": "#ffffff",
         },

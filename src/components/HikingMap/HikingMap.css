@@ -38,12 +38,13 @@
   margin: 0 auto;
 }
 .lefty {
-  width: 33vw;
-  margin-left: 5vw;
+  width: 40vw;
+  margin-left: 2vw;
 }
 .righty {
-  width: 33vw;
-  margin-left: 62vw;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: 2vw;
 }
 .light {
   color: #444;
@@ -56,16 +57,16 @@
 .step {
   padding-bottom: 50vh;
   /* margin-bottom: 10vh; */
-  opacity: 0.25;
+  opacity: 0.55;
 }
 .step.active {
   opacity: 0.9;
 }
 
 .step div {
-  padding: 25px 50px;
-  line-height: 25px;
-  font-size: 13px;
+  padding: 1.5vh 1vh;
+  line-height: 1.85vh;
+  font-size: 1.35vh;
 }
 
 .step img {

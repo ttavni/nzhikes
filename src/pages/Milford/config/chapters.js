@@ -20,7 +20,7 @@ const chapters = [
   },
   {
     id: "drive-slide-1",
-    title: "Day 2: Arthur Valley",
+    title: "🏔️ Day 2: Arthur Valley 🏞️",
     alignment: "left",
     description:
       "The second day of the Milford Track involves a hike through the Clinton Valley, passing by stunning waterfalls and traversing the valley floor. Take in the panoramic views of the surrounding mountains. There is a small detour worth taking to the Hidden Lake.",
@@ -30,7 +30,7 @@ const chapters = [
   },
   {
     id: "drive-slide-2",
-    title: "Day 2: Prarie Shelter & Bus Stop Shelter",
+    title: "Day 2: Prarie Shelter & Bus Stop Shelter 🏠",
     alignment: "right",
     description:
       "The Prairie Shelter is a small shelter located about 3 hours into the second day's hike. It provides a welcome rest stop for hikers, particularly in wet weather. The Bus Stop Shelter is another small shelter and is a must-stop if the rain is heavy or the river level is too high to cross safely, as it provides protection and shelter for hikers.",
@@ -40,7 +40,7 @@ const chapters = [
   },
   {
     id: "drive-slide-3",
-    title: "Day 3: Mintaro Hut & Mackinnon Pass",
+    title: "Day 3: Mintaro Hut & Mackinnon Pass 🥾",
     alignment: "left",
     description:
       "Mintaro Hut provides stunning views of the surrounding mountains and is a great place to rest and refuel for the journey ahead. The Mackinnon Pass is the highest point on the track that offers breathtaking views of the surrounding mountain peaks and valleys. If hikers arrive early and the weather is clear, it is worth dropping off their packs at the hut and taking a side trip to the Mackinnon Pass Memorial, which honors the track's builder, Quintin Mackinnon. The memorial is often shrouded in clouds in the mornings, so hiking to it when the weather is clear is a rare opportunity to take in the stunning views from the pass.",
@@ -50,8 +50,8 @@ const chapters = [
   },
   {
     id: "drive-slide-4",
-    title: "Day 3: Sutherland Falls",
-    alignment: "left",
+    title: "Day 3: Sutherland Falls 💦",
+    alignment: "right",
     description:
       "After reaching the summit of Mackinnon Pass, hikers will descend down towards the Quintin Shelter, where free hot water is available. From there, hikers can choose to take a side trip to Sutherland Falls, which involves a 1 hour detour that leads to the base of the falls. The falls are one of the highest in New Zealand, and the view from the base is well worth the extra effort.",
     location: {},
@@ -60,29 +60,30 @@ const chapters = [
   },
   {
     id: "drive-slide-5",
-    title: "Day 4: Dumpling Hut",
-    alignment: "right",
+    title: "Day 4: Dumpling Hut 🥟",
+    alignment: "left",
     description:
-      "Dumpling Hut is the final hut on the Milford Track. A welcome rest after a long day offering 4 different bunk rooms.",
+      "Dumpling Hut is the final stop on the Milford Track, providing a much-needed respite for tired hikers. With four different bunk rooms this cozy hut is the perfect place to recharge before completing your journey to Milford Sound",
     location: {},
     onChapterEnter: [],
     onChapterExit: [],
   },
   {
     id: "drive-slide-6",
-    title: "Day 4: Bell Rock & Mackay Falls",
-    alignment: "left",
+    title: "Day 4: Bell Rock 🪨 & Mackay Falls 💦",
+    alignment: "right",
     description:
-      "The final day is the longest but thankfully flat. Climbing into Bell Rock is a must and at the same time visiting Mackay Falls.",
+      "The final day of the Milford Track is the longest, but thankfully it's a flat walk that takes you through stunning forests and along tranquil rivers. As you make your way towards the end of your journey, you'll pass by Bell Rock, a massive boulder that has been hollowed out inside and worth climbing inside. Fun fact: up to 18 Japanese tourists have fit inside Bell Rock at once.",
     location: {},
     onChapterEnter: [],
     onChapterExit: [],
   },
   {
     id: "drive-slide-7",
-    title: "Day 4: Lake Ada & Sandfly Point - Final Stretch",
-    alignment: "right",
-    description: "Final streettchh ayeee",
+    title: "Day 4: Lake Ada & Sandfly Point  🏔️  💦",
+    alignment: "left",
+    description:
+      "Embark on the final stretch of the Milford Track, walking along the tranquil shores of Lake Ada and crossing over a recently built suspension bridge. The area of the Milford track was heavily affected by the 2020 Fiorland flooding. As you approach Sandfly Point, the path becomes wider due to historic work trying to build a horse & carriage track from Milford Sound to Sutherland Falls. Finally, you'll reach Sandfly Point, the end of the Milford Track, where you can catch a boat to Milford Sound and celebrate the completion of your incredible journey! 🚣",
     location: {},
     onChapterEnter: [],
     onChapterExit: [],
